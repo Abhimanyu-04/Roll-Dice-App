@@ -1,16 +1,60 @@
-# roll_dice_app
+# Dice Roller App
 
-A new Flutter project.
+A simple Flutter application that simulates rolling a dice.
+
+## Features
+
+- Roll a dice by pressing a button.
+- Displays a random dice face each time the button is pressed.
+- Gradient background for a visually appealing interface.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Comes with Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/roll_dice_app.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd roll_dice_app
+    ```
+3. Install dependencies:
+    ```sh
+    flutter pub get
+    ```
+
+### Running the App
+
+1. Connect a device or start an emulator.
+2. Run the app:
+    ```sh
+    flutter run
+    ```
+
+## Project Structure
+
+- : Entry point of the application.
+- : Defines the gradient background container.
+- : Contains the dice roller widget and logic.
+- : Contains dice face images.
+
+## Assets
+
+Ensure the following assets are included in your :
+
+```yaml
+flutter:
+  assets:
+    - assets/images/dice-1.png
+    - assets/images/dice-2.png
+    - assets/images/dice-3.png
+    - assets/images/dice-4.png
+    - assets/images/dice-5.png
+    - assets/images/dice-6.png
